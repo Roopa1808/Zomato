@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: rgba(27, 28, 28, 0.882);
+}
+
+.zomato-login div {
+    margin: 20px;
+}
+
+.zomato-loginpage-box {
+    height: 70vh;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.zomato-header {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #474646f0;
+}
+
+.closeicon {
+    float: right;
+}
+
+.flag {
+    height: 50px;
+}
+
+.country-code-select {
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    display: flex;
+    width: 90%;
+}
+
+.country {
+    border: none;
+}
+
+.phone {
+    border: none;
+}
+
+.password {
+    border: 1px solid transparent;
+    height: 45px;
+    width: 92%;
+    background-color: rgb(236, 56, 56);
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+    opacity: 0.9;
+    margin-left: 15px;
+}
+
+.password:hover {
+    cursor: pointer;
+    background-color: rgb(186, 23, 23);
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #686666;
+}
+
+.line div {
+    border-top: 1px solid #686666;
+    width: 100%;
+}
+
+.email,
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0, 0.495);
+    color: black;
+    text-decoration: none;
+    height: 45px;
+    width: 92%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+.google:hover {
+    border: 1px solid skyblue;
+    background-color: rgba(240, 248, 255, 0.614);
+    cursor: pointer;
+}
+
+.footer-line {
+    border-top: 1px solid rgba(132, 131, 131, 0.204);
+
+}
+
+.footer-text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.create-account {
+    color: rgba(210, 50, 50, 0.856);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .zomatopage-creation {
+
+        height: 100vh;
+        width: 100vw;
+    }
+
+    body {
+        background-color: block;
+    }
+}
